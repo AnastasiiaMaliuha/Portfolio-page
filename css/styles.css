@@ -1,5 +1,23 @@
-.first-box {
-  margin: auto;
-  padding: 100px;
+:root {
+  --branding-color: #f6e8f5;
+  --secondary-color: #f5f3e7;
+}
+
+.home {
+  padding: 160px 20px;
+  font-size: 34px;
+  font-family: "SF Pro";
+  text-align: center;
+  opacity: 0.8;
   background: linear-gradient(264.42deg, #f2f2df 0%, #f5e2f5 100%);
+}
+.btn-branding {
+  background: var(--secondary-color);
+  border: 1px solid #a1a198a3;
+  border-radius: 4px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+p {
+  opacity: 0.8;
 }
