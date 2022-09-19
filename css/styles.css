@@ -21,3 +21,12 @@
 p {
   opacity: 0.8;
 }
+.images {
+  margin: 45px;
+}
+
+.proj {
+  display: flex;
+
+  justify-content: space-between;
+}
